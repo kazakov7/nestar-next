@@ -9,9 +9,9 @@ import { getJwtToken, updateUserInfo } from '../../auth';
 import Chat from '../Chat';
 import { useReactiveVar } from '@apollo/client';
 import { userVar } from '../../../apollo/store';
-import { useTranslation } from 'next-i18next';
-import 'swiper/css';
-import 'swiper/css/pagination';
+import { useTranslation } from 'next-i18next'; //@ts-ignore
+import 'swiper/css'; //@ts-ignore
+import 'swiper/css/pagination'; //@ts-ignore
 import 'swiper/css/navigation';
 
 const withLayoutBasic = (Component: any) => {
