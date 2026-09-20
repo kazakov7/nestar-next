@@ -4,6 +4,7 @@ import { CustomJwtPayload } from '../libs/types/customJwtPayload';
 export const themeVar = makeVar({});
 
 export const userVar = makeVar<CustomJwtPayload>({
+	//reactive variable = qiymat ozgarganda.
 	_id: '',
 	memberType: '',
 	memberStatus: '',
