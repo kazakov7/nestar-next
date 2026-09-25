@@ -74,7 +74,7 @@ const PropertyDetail: NextPage = ({ initialComment, ...props }: any) => {
 		notifyOnNetworkStatusChange: true,
 		onCompleted(data: T) {
 			if (data?.getProperty) setProperty(data?.getProperty);
-			if (data?.getProperty) setSlideImage(data?.getProperty.propertyImages[0]);
+			if (data?.getProperty) setSlideImage(data?.getProperty.propertyImages[1]);
 		},
 	});
 

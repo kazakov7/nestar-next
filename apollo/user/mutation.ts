@@ -92,7 +92,7 @@ export const UPDATE_MEMBER = gql`
 
 export const LIKE_TARGET_MEMBER = gql`
 	mutation LikeTargetMember($input: String!) {
-		likeTargetMember(memberId: $input) {
+		likeTargetMember(input: $input) {
 			_id
 			memberType
 			memberStatus
